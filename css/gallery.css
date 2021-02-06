@@ -271,13 +271,13 @@ align-items: center;
   
   
 @media(max-width:960px) {
-    /* .showcasee {
-        height: 70vh;
-    } */
     .showcasee-top img {
         top: 30%;
         left: 5%;
         transform: translate(0);
+    }
+    .navbar{
+        width: auto;
     }
     .tab-items p {
         font-size: 13px;

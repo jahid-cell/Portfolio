@@ -481,6 +481,12 @@ border-radius:0 50% 0 50% ;
     grid-template-rows: 1fr;
    
   }
+  .img-grid img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+
   .project-links .live{
     font-size: 12px;
     padding: 0 10;
@@ -535,10 +541,29 @@ border-radius:0 50% 0 50% ;
   }
 }
 
-/* Mobile */
+/* Mobile & Under */
 @media (max-width: 550px) {
   .navbar {
     height: 110px;
+  }
+  .showcase-text{
+    width: auto;
+  }
+  .showcase-text h1{
+    font-size: 20px;
+  }
+  .showcase-text a{
+    font-size: 13px;
+  }
+
+  .img-grid img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+
+  .showcase-form{
+    width: auto;
   }
 
   .navbar .flex {
@@ -552,6 +577,11 @@ border-radius:0 50% 0 50% ;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.1);
   }
+  
+.tabs .tab-items p{
+  font-size: 12px;
+  padding: 12px;
+}
 }
 
 #name{
