@@ -158,7 +158,6 @@ pre {
 }
 .blog-card .blog-body .blog-heading{
   font-size: 26px;
-  /* font-family:'Staatliches', cursive ; */
   font-family: Arial, Helvetica, sans-serif;
 }
 .blog-link{
@@ -300,6 +299,10 @@ pre {
   text-align: center;
   margin: 18px 10px 40px;
   transition: transform 0.2s ease-in;
+}
+
+#newwww:hover{
+ border-radius: 0% 50% 0% 50%;
 }
 
 .languages .card h4 {
